@@ -1,0 +1,27 @@
+
+
+.main-navbar{
+    background-color: black !important;
+    min-height: 10vh ;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+.nav-links:hover{
+    background-color: wheat;
+    color: black ;
+
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-logo{
+    color: white !important;
+    font-weight: 700 !important;
+}

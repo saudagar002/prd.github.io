@@ -1,0 +1,39 @@
+.info-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img{
+    display: flex;
+    width: 50%;
+    overflow-x: scroll;
+}
+
+.info-content{
+   width: 50%;
+}
+
+.info-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.info-btn button:nth-child(1){
+    background-color: #fff;
+    border: 2px solid black;
+
+}
+
+.info-btn button{
+   
+     height: 3rem;
+    padding:2px 20px;
+    background-color: rgb(235, 168, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+
